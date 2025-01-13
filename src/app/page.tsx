@@ -1,4 +1,5 @@
 import Article from "./components/Article";
+import Booking from "./components/Booking";
 import ClientBar from "./components/ClientBar";
 import HomePage from "./components/HomePage";
 import Innovation from "./components/Innovation";
@@ -18,6 +19,7 @@ export default function Home() {
       <Innovation />
       <ClientBar />
       <Article />
+      <Booking />
     </div>
   );
 }
