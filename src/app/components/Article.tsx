@@ -31,11 +31,14 @@ const Article = () => {
                                     <Image className=' rounded-3xl h-full w-full' width={1500} height={1500} src={image.img} alt={image.title} />
                                 </div>
 
-                                <div className='border-l pl-4 group-hover:translate-x-4 duration-300'>
+                                <div className=' '>
+                                    <div className='border-l pl-4  group-hover:translate-x-4 duration-300'>
+
                                     <h1 className='text-lg font-bold'>Blog</h1>
                                     <p className='text-[#aea9b1] text-base font-normal'>The Reformist • May 29th, 2024</p>
 
                                     <p className='text-2xl font-bold py-5'>{image.title}</p>
+                                    </div>
                                 </div>
                             </div>
                         ))
