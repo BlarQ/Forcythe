@@ -1,3 +1,4 @@
+import Article from "./components/Article";
 import ClientBar from "./components/ClientBar";
 import HomePage from "./components/HomePage";
 import Innovation from "./components/Innovation";
@@ -16,6 +17,7 @@ export default function Home() {
       <Spotlight />
       <Innovation />
       <ClientBar />
+      <Article />
     </div>
   );
 }
