@@ -1,6 +1,7 @@
 import Article from "./components/Article";
 import Booking from "./components/Booking";
 import ClientBar from "./components/ClientBar";
+import Footer from "./components/Footer";
 import HomePage from "./components/HomePage";
 import Innovation from "./components/Innovation";
 import Spotlight from "./components/Spotlight";
@@ -20,6 +21,7 @@ export default function Home() {
       <ClientBar />
       <Article />
       <Booking />
+      <Footer />
     </div>
   );
 }
