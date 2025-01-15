@@ -12,7 +12,7 @@ import Testimonial from "./components/Testimonial";
 
 export default function Home() {
   return (
-    <div className="min-h-[900vh] bg-[#030516]">
+    <div className="bg-[#030516]">
       <HomePage />
       <SuccessPage />
       <Testimonial />
